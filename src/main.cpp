@@ -18,3 +18,7 @@ int value=0;
  *
  * @return void
  */
+void setup() {
+    Serial.begin(9600);
+    pinMode(A0, INPUT);
+}
