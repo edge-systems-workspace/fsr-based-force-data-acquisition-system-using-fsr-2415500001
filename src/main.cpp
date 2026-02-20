@@ -32,3 +32,6 @@ void setup() {
  */
 void loop(){
     value=analogRead(A0);
+    Serial.println(value);
+    delay(500);
+}
